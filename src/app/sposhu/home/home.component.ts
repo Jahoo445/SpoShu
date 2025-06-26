@@ -8,7 +8,7 @@ import { NavButtonsContainerComponent } from '../components/nav-buttons-containe
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink, TitleComponent, FooterComponent, NavButtonComponent, NavButtonsContainerComponent],
+  imports: [TitleComponent, NavButtonComponent, NavButtonsContainerComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

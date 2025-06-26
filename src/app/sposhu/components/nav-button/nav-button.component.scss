@@ -1,7 +1,7 @@
+@use 'sass:color';
 $text-color: #fff;
 $spotify-green: #1db954;
-$button-hover-color: darken($spotify-green, 10%);
-
+$button-hover-color: color.adjust($spotify-green, $lightness: -10%);
 
 button {
     display: flex;

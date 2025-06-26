@@ -13,16 +13,7 @@ import { GetArtMakerService } from '../../../services/getArtMaker.service';
 @Component({
   selector: 'app-selector',
   standalone: true,
-  imports: [
-    CommonModule,
-    MatSelectModule,
-    FormsModule,
-    RouterLink,
-    TitleComponent,
-    FooterComponent,
-    NavButtonComponent,
-    NavButtonsContainerComponent
-  ],
+  imports: [CommonModule, MatSelectModule, FormsModule, TitleComponent, NavButtonComponent, NavButtonsContainerComponent],
   templateUrl: './selector.component.html',
   styleUrls: ['./selector.component.scss']
 })

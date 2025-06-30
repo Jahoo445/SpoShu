@@ -7,7 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
     templateUrl: './sposhu.component.html',
     styleUrl: './sposhu.component.scss',
     standalone: true,
-    imports: [RouterOutlet, FooterComponent, RouterLink,],
+    imports: [RouterOutlet, FooterComponent],
 })
 
 export class SposhuComponent {

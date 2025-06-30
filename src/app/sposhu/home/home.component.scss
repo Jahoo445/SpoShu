@@ -1,9 +1,10 @@
+@use 'sass:color';
 $text-color: #fff;
 
 .tagline {
     display: flex;
     font-size: 1.5rem;
-    color: lighten($text-color, 20%);
+    color: color.adjust($text-color, $lightness: 20%);
     margin-bottom: 2rem;
     font-weight: 300;
     align-items: center;

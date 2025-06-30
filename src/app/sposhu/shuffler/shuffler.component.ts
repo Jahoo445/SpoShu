@@ -14,7 +14,7 @@ import { SpotifyTrack } from '../../../types/spotifyModels/artistsTracks';
 @Component({
   selector: 'app-shuffler',
   standalone: true,
-  imports: [RouterLink, CommonModule, IonicModule, TitleComponent, FooterComponent, FooterComponent, NavButtonComponent, NavButtonsContainerComponent, ControlButtonsComponent],
+  imports: [CommonModule, IonicModule, TitleComponent, NavButtonComponent, NavButtonsContainerComponent, ControlButtonsComponent],
   templateUrl: './shuffler.component.html',
   styleUrl: './shuffler.component.scss'
 })

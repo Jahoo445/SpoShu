@@ -1,3 +1,4 @@
+@use 'sass:color';
 $text-color: #fff;
 
 .artist-image-container {
@@ -26,12 +27,13 @@ $text-color: #fff;
 }
 
 p {
-    color: lighten($text-color, 20%);
+    color: color.adjust($text-color, $lightness: 20%);
     font-weight: 300;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 10px 0;
 }
 
 .content {
